@@ -1,0 +1,9 @@
+Task 1: Object Detection with Count
+Modify the given code to count the number of times an object is detected. Display the count each time an object is detected.
+
+Hint: Use a variable to store the count and increment it whenever the object is detected. Print the updated count on the serial monitor.
+
+Task 2: House Full Message
+After detecting 10 objects, print "House is Full!" instead of the regular count message.
+
+Hint: Use an if condition to check if the count has reached 10. If true, display "House is Full!" and decide whether to reset the count or stop further counting.
