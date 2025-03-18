@@ -7,3 +7,14 @@ Task 2: House Full Message
 After detecting 10 objects, print "House is Full!" instead of the regular count message.
 
 Hint: Use an if condition to check if the count has reached 10. If true, display "House is Full!" and decide whether to reset the count or stop further counting.
+
+Task 3: Home Automation - Automatic Light Control
+Modify the code so that when someone enters the room, a light (LED) turns ON, and when no one is detected, the light turns OFF.
+
+🔹 Technical Hint:
+
+Connect an LED to a digital pin (e.g., pin 13).
+Set the LED pin as OUTPUT in the setup().
+When an object is detected (sensorValue == LOW), turn the LED ON (digitalWrite(LED_PIN, HIGH)).
+When no object is detected (sensorValue == HIGH), turn the LED OFF (digitalWrite(LED_PIN, LOW)).
+Add a small delay to avoid rapid switching.
