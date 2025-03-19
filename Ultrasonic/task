@@ -1,0 +1,8 @@
+Task 1: LED Alert for Object Detection
+Goal:
+Turn ON an LED when an object is closer than 10 cm.
+
+Additional Wiring:
+LED to Arduino Pin D7
+
+Task 2: Display Distance on LCD (I2C 16x2 Display)
