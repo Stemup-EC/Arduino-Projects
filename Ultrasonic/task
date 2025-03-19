@@ -6,3 +6,15 @@ Additional Wiring:
 LED to Arduino Pin D7
 
 Task 2: Display Distance on LCD (I2C 16x2 Display)
+Wiring:
+LCD I2C Pin	Arduino Pin
+VCC	5V
+GND	
+SDA	A4 (Uno) / 20 (Mega)
+SCL	A5 (Uno) / 21 (Mega)
+
+Task 3: Wireless Distance Monitoring via Bluetooth (HC-05/HC-06)
+Wiring: 
+TXD	D2 (Software Serial RX)
+RXD	D3 (Software Serial TX)
+
