@@ -1,7 +1,8 @@
 // MQ Sensor Fire Detection Code for Arduino
 
 const int MQ_PIN = A2;  // MQ sensor connected to analog pin A2
-const int THRESHOLD = 400; // Threshold value for fire detection
+const int THRESHOLD = 150; // Threshold value for fire detection adjust according to your needs
+
 
 void setup() {
     Serial.begin(9600); // Start serial communication
