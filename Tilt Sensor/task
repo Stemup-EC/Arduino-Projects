@@ -1,0 +1,24 @@
+Task 1: Tilt Detection with LED Indicator
+Instructions:
+
+Connect an LED to digital pin D9.
+Modify the code so that:
+The LED turns ON when the sensor detects a tilt.
+The LED remains OFF when no tilt is detected.
+Print the sensor state in the serial monitor.
+
+Task 2: Tilt Alert with Buzzer
+Instructions:
+
+Connect a buzzer to digital pin D10.
+Modify the code so that:
+The buzzer sounds when the sensor detects a tilt.
+The buzzer remains silent when no tilt is detected.
+Keep the LED functionality from Task 1.
+
+Task 3: Counting Tilt Events
+Instructions:
+
+Create a variable to store the tilt count.
+Each time a tilt is detected, increment the count.
+Display the updated count on the serial monitor.
