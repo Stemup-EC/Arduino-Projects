@@ -1,0 +1,15 @@
+Task 1:
+Connect an LED to pin D7 and a buzzer to pin D9.
+Modify the code so that:
+When fire is detected, the LED turns ON and the buzzer sounds.
+When no fire is detected, the LED and buzzer remain OFF.
+Keep displaying the sensor values on the serial monitor.
+
+Task 2:
+Connect the LCD (I2C module) to the Arduino.
+Display:
+"Fire Detector" on the first row.
+The real-time sensor value on the second row.
+If fire is detected:
+The LCD should display "FIRE DETECTED!" on the first row.
+The buzzer and LED should still function as in Task 2.
