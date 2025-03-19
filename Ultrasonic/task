@@ -18,3 +18,12 @@ Wiring:
 TXD	D2 (Software Serial RX)
 RXD	D3 (Software Serial TX)
 
+Final Challenge: Automatic Parking Assistant System
+Features:
+✅ LED for Object Detection
+✅ Buzzer Warning
+✅ LCD Display
+✅ Bluetooth Alert
+Additional Wiring:
+Buzzer to Pin D6
+Implement all these into a single project.
