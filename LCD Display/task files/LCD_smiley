@@ -1,0 +1,31 @@
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+
+LiquidCrystal_I2C lcd(0x27, 16, 2); // Set the I2C address (0x27 or 0x3F)
+
+byte smiley[8] = {
+  0b00000,
+  0b00000,
+  0b01010,
+  0b00000,
+  0b10001,
+  0b01110,
+  0b00000,
+  0b00000
+};
+
+void setup() {
+  lcd.init();           
+  lcd.backlight();      
+  lcd.createChar(0, smiley); // Store custom smiley face in position 0
+
+  lcd.setCursor(4, 0);
+  lcd.print("Hello");
+  
+  lcd.setCursor(6, 1);
+  lcd.write(byte(0)); // Display the smiley face
+}
+
+void loop() {
+  // Nothing needed here
+}
