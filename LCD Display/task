@@ -1,1 +1,7 @@
+Task-1
 print a smiley in the second line, using custom characters using createChar function
+
+Task-2
+Modify the given LCD code to display a blinking smiley face 😊 every second. 
+The LCD should first show a normal smiley and after one second, replace it with a sad face 😢. 
+This will create a simple animation effect.
